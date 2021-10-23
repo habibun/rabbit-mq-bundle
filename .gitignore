@@ -8,11 +8,7 @@
 /vendor/
 ###< symfony/framework-bundle ###
 
-###> phpstorm ###
+###> miscellaneous ###
 /.idea
-###< phpstorm ###
-###> friendsofphp/php-cs-fixer ###
-/.php_cs
-/.php_cs.cache
-###< friendsofphp/php-cs-fixer ###
-
+/.php-cs-fixer.cache
+###< miscellaneous ###
