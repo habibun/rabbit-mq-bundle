@@ -4,7 +4,6 @@
 /.env.*.local
 /config/secrets/prod/prod.decrypt.private.php
 /public/bundles/
-/public/uploads/
 /var/
 /vendor/
 ###< symfony/framework-bundle ###
@@ -12,13 +11,6 @@
 ###> phpstorm ###
 /.idea
 ###< phpstorm ###
-
-###> symfony/phpunit-bridge ###
-.phpunit
-.phpunit.result.cache
-/phpunit.xml
-###< symfony/phpunit-bridge ###
-
 ###> friendsofphp/php-cs-fixer ###
 /.php_cs
 /.php_cs.cache
