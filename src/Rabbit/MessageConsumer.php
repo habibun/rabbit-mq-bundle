@@ -11,6 +11,6 @@ class MessageConsumer implements ConsumerInterface
     {
         $message = json_decode($msg->body, true);
 
-        echo 'Received a message from '.$message['sender'];
+        echo 'Received a message from '.$message['sender'].PHP_EOL;
     }
 }
